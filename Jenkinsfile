@@ -25,6 +25,7 @@ pipeline {
     post {
         always{
             echo 'I will always say Hello Again!'
+            deleteDir()
         }
         success {
             echo 'Hello success'
