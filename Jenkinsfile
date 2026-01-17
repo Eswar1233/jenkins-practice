@@ -44,7 +44,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 script{
-                  echo 'Deploy..'
+                  echo 'Deploy.'
                 }
             }
         }
