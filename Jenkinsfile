@@ -7,7 +7,7 @@ pipeline {
         COURSE = 'jenkins'
     }
     options {
-        timeout(time: 1, unit: 'SECOND')
+        timeout(time: 1, unit: 'SECONDS')
     }
 
     // Build
